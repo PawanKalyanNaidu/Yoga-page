@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.yoga-main-page-bg-container {
+  background-image: url(imgs/yoga-bg.png);
+  background-size: cover;
+  height: 100%;
+  font-family: "Roboto";
+  text-align: center;
+  padding: 30px;
+}
+.yoga-main-page-heading {
+  font-size: 30px;
+  color: #132d84;
+  font-weight: bold;
+}
+.yoga-main-page-image {
+  height: 400px;
+  width: 380px;
+  padding: 20px;
+}
+.main-img-con {
+  margin-top: 20px;
+}
+.yoga-main-page-para {
+  color: #323f4b;
+  font-size: 18px;
+}
+.button {
+  background-color: #132d84;
+  color: #fad693;
+  border-width: 0px;
+}
+.button:hover {
+  background-color: #253263;
+  color: white;
+  border-width: 0px;
+}
+
+/* types of yoga page  */
+.yoga-types-bg-con {
+  text-align: center;
+  background-color: #ffedcb;
+  padding: 30px;
+  font-family: "Roboto";
+}
+.yoga-types-main-img {
+  height: 300px;
+  width: 300px;
+}
+.yoga-types-main-heading {
+  font-size: 30px;
+  color: #132d84;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.yoga-types-card {
+  background-color: #ffe2ab;
+  display: flex;
+  flex-direction: row;
+  height: 140px;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.yoga-types-card-img {
+  height: 100px;
+  width: 100px;
+  padding: 1px;
+  margin: 10px;
+}
+.yoga-types-text-con {
+  padding: 2px;
+  text-align: start;
+}
+.yoga-types-card-heading {
+  color: #323f4b;
+  font-size: 25px;
+}
+.yoga-types-card-para {
+  color: #323f4b;
+  font-size: 14px;
+  margin-top: 10px;
+}
